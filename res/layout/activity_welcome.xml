@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lee.studdy.discrollview.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:scrollbars="none" >
+
+    <lee.studdy.discrollview.DiscrollViewContent
+        android:id="@+id/contentview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/arrowdown"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="下面\n\n讲述的是\n\n一个\n\n忧伤的故事"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mama1"
+            discrollve:discrollve_translation="fromLeft"  />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mama2"
+            discrollve:discrollve_translation="fromRight"  />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mama3"
+            discrollve:discrollve_translation="fromLeft"  />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mama4"
+            discrollve:discrollve_translation="fromRight"  />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/comm_3"
+            android:gravity="center"
+            android:text="自从用了Studdy"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_threshold="0.3"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/xuexi"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="什么是Studdy?!"
+            android:textSize="36sp"
+            discrollve:discrollve_fromBgColor="@color/comm_2"
+            discrollve:discrollve_toBgColor="#2ecc71"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="right"
+            android:padding="15dp"
+            android:src="@drawable/question"
+            android:background="#ffffff"
+            discrollve:discrollve_translation="fromRight" />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/studdy_icon512"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:paddingTop="20dp"
+            android:text=""
+            android:textColor="#3b5998"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <lee.studdy.fbutton.FButton
+            android:id="@+id/enterMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:minHeight="80dp"
+            android:minWidth="150dp"
+            android:onClick="start"
+            android:text="进去看看！"
+            android:textColor="@color/white"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            fbutton:buttonColor="@color/comm_2"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp" />
+    </lee.studdy.discrollview.DiscrollViewContent>
+
+</lee.studdy.discrollview.DiscrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Studdy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <string name="et_account_hint">账号</string>
+    <string name="et_password_hint">密码</string>
+    <string name="et_passwordagain_hint">重复密码</string>
+    <string name="register">新用户</string>
+    <string name="login">登入</string>
+    <string name="notlogin">试用</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="tv_country">中国+86</string>
+    <string name="et_phoneNumber_hint">请输入你的手机号码</string>
+    <string name="title_phoneNumber">请填写手机号码</string>
+    <string name="btn_next">下一步</string>
+    <string name="tv_xieyi">我已阅读并同意</string>
+    <string name="tv_xieyi_url">使用条款和隐私政策</string>
+    <string name="back">返回</string>
+    <string name="tv_tips_password">密码由6-16位数字,字母或符号组成,不能是9位一下纯数字组成</string>
+    <string name="tv_tips_name">建议填写你的真实姓名,让你的朋友更容易人出你,此昵称以后可以随时修改</string>
+    <string name="et_name_hint">昵称</string>
+    <string name="register_complete">完成</string>
+    <string name="title_register_info">设置密码和昵称</string>
+    <string name="tv_qq">你已获得QQ号码</string>
+    <string name="tv_qq_number">525203053</string>
+    <string name="tv_register_result">启用通讯录查找更多好友,直接发起QQ聊天,我已阅读并同意</string>
+    <string name="tv_tiaokuan">服务声明</string>
+    <string name="tv_register_success">注册成功</string>
+    <string name="register_success">进入QQ</string>
+    <string name="tv_search">搜索</string>
+    <string name="news">消息</string>
+    <string name="user_name">开心一刻</string>
+    <string name="user_feel">好好学习,天天向上</string>
+    <string name="user_time">12:30</string>
+    <string name="tv_loading">正加载,请稍后...</string>
+    <string name="no_data">网络异常...</string>
+    <string name="pop_chat">多人聊天</string>
+    <string name="pop_sangzhao">分享</string>
+    <string name="pop_camera">水印相机</string>
+    <string name="pop_scan">扫一扫</string>
+    <string name="app_cancle">取消</string>
+    <string name="app_change_user">注销用户</string>
+    <string name="app_exit_user">退出</string>
+    
+     <string name="empty">There are no todo items right now.</string>
+    <string name="menu_insert">新建一个问题</string>
+    <string name="content">Enter your todo content</string>
+    <string name="confirm">Done</string>
+    <string name="create_todo">问题讨论</string>
+    <string name="menu_delete">Delete Todo</string>
+    <string name="menu_search">查找问题</string>
+    
+</resources>

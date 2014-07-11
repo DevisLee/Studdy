@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/commentUser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#888888"
+            android:minLines="3"
+            android:padding="3dp"
+            android:text="他说"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/commentDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="#EDFFDC"
+            android:minLines="3"
+            android:padding="3dp"
+            android:text="评论内容"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</LinearLayout>

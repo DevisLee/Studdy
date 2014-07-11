@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#000000"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewpager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:text="更换背景" />
+
+    <ImageView
+        android:id="@+id/confirm"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="18dp"
+        android:src="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="18dp"
+        android:src="@drawable/wrong" />
+
+</RelativeLayout>
